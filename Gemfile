@@ -15,7 +15,8 @@ gem 'turbolinks', '~> 5.1'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
-
+gem 'devise', '~> 4.4', '>= 4.4.1'
+gem 'milia', '~> 1.3', '>= 1.3.1'
 
 
 
