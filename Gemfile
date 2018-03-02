@@ -17,6 +17,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'milia', '~> 1.3', '>= 1.3.1'
+gem 'twitter-bootstrap-rails', '~> 4.0'
+gem 'devise-bootstrap-views', '~> 0.0.11'
 
 
 
