@@ -19,6 +19,9 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'milia', '~> 1.3', '>= 1.3.1'
 gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise-bootstrap-views', '~> 0.0.11'
+gem 'modernizr-rails', '~> 2.7', '>= 2.7.1'
+gem 'simple_form', '~> 3.5', '>= 3.5.1'
+
 
 
 
