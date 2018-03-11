@@ -1,5 +1,8 @@
 {
   "name": "saasproject",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "uglify-js": "^3.3.14",
+    "yarn": "^1.5.1"
+  }
 }
