@@ -1,0 +1,19 @@
+<%= simple_form_for [@tenant, @project], :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="form-group">
+    <%= f.input :title, class: "form-control" %>
+    
+  </div>
+  <div class="form-group">
+    <%= f.input :details, class: "form-control" %>
+    
+  </div>
+  <div class="form-group">
+    <%= f.input :expected_completion_date, input_html: {class: 'data-datepicker', 'data-date-language' => I18n.locale} %>
+   
+  </div>
+  <br>
+  <%= f.hidden_field :tenant_id, value: params[:tenant_id], class: "form-control" %>
+  <%= f.button :submit, :class => 'btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                root_path, :class => 'btn btn-default' %>
+<% end %>

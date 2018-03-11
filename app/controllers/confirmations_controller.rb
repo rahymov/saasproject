@@ -1,4 +1,4 @@
-class ConfirmationsController < Milia::ConfirmationController
+class ConfirmationsController < Milia::ConfirmationsController
 	before_action :set_confirmable, :only => [ :update, :show ]
 
 	def update

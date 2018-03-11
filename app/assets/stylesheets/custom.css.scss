@@ -22,7 +22,7 @@
 .nav.navbar-nav {
   .navbar-link {
     border-radius: 5px;
-    color: white;
+    color: #fff;
     margin-top: 15px;
     padding: 8px;
   }
@@ -39,6 +39,7 @@
   .btn {
     color: #fff !important;
     margin-top: 5%;
+    margin-right: -10px;
   }
   .btn-danger:hover, .btn-danger:focus {
     background-color: darken(#d9534f,20%) !important;
@@ -60,27 +61,23 @@
 }
 
 .jumbotron {
-  background-image: asset-url('yr.jpeg');
+  background-image: asset-url('yr.jpg');
   background-size: cover;
   color: #fff;
   font-family: 'Helvetica Neue' !important;
   font-stretch: expanded;
   padding-top: 95px;
-  padding-bottom: 160px;
+  padding-bottom: 150px;
   margin-left: 15px;
   margin-right: 15px;
   text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
 
   h2 {
     font-size: 35px !important;
-    text-align: center;
     .lead {
       font-family: 'Helvetica Neue' !important;
       font-size: 30px !important;
     }
-  }
-  p{
-    text-align: center;
   }
 }
 
@@ -88,8 +85,6 @@
   border: 1px solid #e7e7e7;
   border-radius: 5px;
   margin-right: 5px;
-  background-color: #000033;
-  color: white;
 }
 
 .price {
@@ -102,7 +97,7 @@
 }
 
 .extra {
-  color: red;
+  color: #5cb85c;
 }
 
 .no-side-padding {
@@ -140,24 +135,21 @@
 }
 
 .navbar.navbar-static-top {
-  background: #000033;
+  background: #000;
   color: #fff !important;
   padding-bottom: 5px;
 }
-.navbar-default .navbar-brand{
-  color: white;
-  padding: 22px 0;
-  &:hover{ 
-    color: white;
-    font-size: 25px;
-  }
+.form-horizontal .control-label{
+  text-align: left
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-brand {
   color: white;
-  &:hover {
-    background-color: white;
-    height: 15px;
-    width: 20px;
-    color: white !important;
-  }
+    font-size: 20px;
+    padding: 22px 0;
+    &:hover{
+      color: white;
+      font-size: 25px;
+    }
 }
+
+    

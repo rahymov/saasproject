@@ -21,6 +21,8 @@ gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise-bootstrap-views', '~> 0.0.11'
 gem 'modernizr-rails', '~> 2.7', '>= 2.7.1'
 gem 'simple_form', '~> 3.5', '>= 3.5.1'
+gem 'bootstrap-datepicker-rails', '~> 1.7', '>= 1.7.1.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 
 
